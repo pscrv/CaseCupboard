@@ -5,6 +5,10 @@ VisualStudioVersion = 15.0.26430.16
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CaseCupboard", "CaseCupboard\CaseCupboard.csproj", "{3770989D-0CAB-4B9F-A181-577995443AFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomControls", "CustomControls\CustomControls.csproj", "{EDB049A3-9774-4F3B-8169-DEF0439B263F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MVVM", "MVVM\MVVM\MVVM.csproj", "{6EBE5680-8AB6-49B9-8934-CF6161A7025D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{3770989D-0CAB-4B9F-A181-577995443AFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3770989D-0CAB-4B9F-A181-577995443AFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3770989D-0CAB-4B9F-A181-577995443AFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EDB049A3-9774-4F3B-8169-DEF0439B263F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EDB049A3-9774-4F3B-8169-DEF0439B263F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EDB049A3-9774-4F3B-8169-DEF0439B263F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EDB049A3-9774-4F3B-8169-DEF0439B263F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6EBE5680-8AB6-49B9-8934-CF6161A7025D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EBE5680-8AB6-49B9-8934-CF6161A7025D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EBE5680-8AB6-49B9-8934-CF6161A7025D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EBE5680-8AB6-49B9-8934-CF6161A7025D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
