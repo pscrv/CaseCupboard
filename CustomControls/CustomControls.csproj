@@ -48,11 +48,19 @@
     <Reference Include="PresentationFramework" />
   </ItemGroup>
   <ItemGroup>
-    <Page Include="Styles\RoundedWindowStyle.xaml">
+    <Page Include="Styles\ButtonStyles.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
-    <Page Include="TestControl.xaml">
+    <Page Include="Styles\ExpandingContainerStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\ExpandingTextBlockStyle.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Styles\RoundedWindowStyle.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -62,6 +70,8 @@
     </Page>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ExpandingContainer.cs" />
+    <Compile Include="ExpandingTextBlock.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -76,9 +86,7 @@
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
     <Compile Include="RoundedWindow.cs" />
-    <Compile Include="TestControl.xaml.cs">
-      <DependentUpon>TestControl.xaml</DependentUpon>
-    </Compile>
+    <Compile Include="ValueConverters\ExpandingContainerMultibindingConverter.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>

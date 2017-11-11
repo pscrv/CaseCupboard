@@ -5,6 +5,11 @@
 
 
     <ResourceDictionary.MergedDictionaries>
-        <ResourceDictionary Source="CustomControls;component/Styles/RoundedWindowStyle.xaml" />
+        <ResourceDictionary Source="/CustomControls;component/Styles/RoundedWindowStyle.xaml" />
+        <ResourceDictionary Source="/CustomControls;component/Styles/ExpandingTextBlockStyle.xaml" />
+        <ResourceDictionary Source="/CustomControls;component/Styles/ExpandingContainerStyle.xaml" />
     </ResourceDictionary.MergedDictionaries>
+
+
+
 </ResourceDictionary>
